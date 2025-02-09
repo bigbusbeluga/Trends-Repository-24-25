@@ -1,0 +1,68 @@
+.education-history {
+    max-width: 92%; 
+    margin: 50px auto;
+    text-align: center;
+    background: #f7fbef;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.education-title-main {
+    font-family: "Mona Sans";
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Mona Sans";
+
+}
+
+.education-container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;  
+}
+
+.education-container > div {
+    flex: 1;
+    min-width: 350px; 
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    padding: 10px;
+}
+
+.education-container > div:hover {
+    transform: translateY(-5px);
+}
+
+.ncs1-pic {
+    width: 300px; 
+}
+
+
+@media (max-width: 1200px) { /* Laptops & Smaller Desktops */
+    .education-history {
+        max-width: 90%;
+    }
+    .education-container {
+        flex-wrap: wrap;
+    }
+
+    .ncs1-pic {
+        width: 280px; 
+
+    }
+}
+
