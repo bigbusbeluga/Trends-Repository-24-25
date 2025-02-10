@@ -1,3 +1,6 @@
+.view-more {
+    text-decoration-line: underline;
+}
 .education-history {
     width: 100;
     height: 70vh;
@@ -20,6 +23,36 @@
     border-radius: 10px;
     border-color: #f7fbef;
     padding: 20px;
+    text-align: justify;
+}
+
+.about-me h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.about-me h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.about-me ol {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.about-me ol li {
+    margin-bottom: 5px;
+}
+
+.general-technical-skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.general-technical-skills ul li {
+    margin-bottom: 10px;
 }
 
 .about-flex-container {
@@ -31,3 +64,24 @@
     display: flex;
     flex-direction: row;
 }
+
+.references-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.references-table th, .references-table td {
+    padding: 12px 15px;
+}
+
+.references-table th {
+    font-weight: bold;
+}
+
+.references-table tr:nth-child(even) {
+    background-color: transparent;
+}
+
